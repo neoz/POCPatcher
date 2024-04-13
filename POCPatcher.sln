@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMedicin", "MyMedicin\MyMe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicinPatcher", "MedicinPatcher\MedicinPatcher.csproj", "{324209A4-9105-471B-9C3D-A39CD733B370}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mypcode", "mypcode.dll\mypcode.csproj", "{6930E5A2-3A7D-4316-8E3F-5779F87011BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{324209A4-9105-471B-9C3D-A39CD733B370}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{324209A4-9105-471B-9C3D-A39CD733B370}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{324209A4-9105-471B-9C3D-A39CD733B370}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6930E5A2-3A7D-4316-8E3F-5779F87011BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6930E5A2-3A7D-4316-8E3F-5779F87011BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6930E5A2-3A7D-4316-8E3F-5779F87011BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6930E5A2-3A7D-4316-8E3F-5779F87011BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

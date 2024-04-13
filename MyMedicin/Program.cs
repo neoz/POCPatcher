@@ -16,8 +16,8 @@ namespace MyMedicin
         {
             // Using reflection to get the assembly
             Assembly assembly = Assembly.LoadFrom("SampleConsoleNeedCrack.exe");
-            MyMedicin.Patch(assembly);
-            assembly.EntryPoint.Invoke(null, new object[] { args });
+            //MyMedicin.Patch(assembly);
+            assembly.EntryPoint.Invoke(null, null);
 
         }
     }

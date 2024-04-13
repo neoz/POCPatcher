@@ -17,7 +17,8 @@ namespace MedicinPatcher
             
             ModuleDefMD module = ModuleDefMD.Load("SampleConsoleNeedCrack.exe");
 
-            var type1 = asm.GetType("MedicinPatcher.Medicin");
+            //var type1 = asm.GetType("MedicinPatcher.Medicin");
+            var type1 = typeof(mypcode.Medicin);
             Importer importer = new Importer(module);
             ITypeDefOrRef consoleRef = importer.Import(type1);
             var method = type1.GetMethod("Patch");
